@@ -4,7 +4,6 @@ const router = express.Router();
 const checkController = require('../controllers/datacontroller');
 
 router.post('/api/addLink', checkController.addLink);
-router.get('/find', checkController.find);
 router.get('/api/authentication', checkController.authentication);
 router.get('/api/getData', checkController.getData);
 router.delete('/api/deleteLink', checkController.deleteLink);
